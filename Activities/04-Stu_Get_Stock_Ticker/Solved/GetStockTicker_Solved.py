@@ -2,18 +2,16 @@
 import quandl
 import json
 
-# Api Key
+# API Key
 from config import API_KEY
 
 # Setup Quandl API Authentication
-# YOUR CODE HERE
 quandl.ApiConfig.api_key = API_KEY
 
-# Get stock ticker information from Apple
-# YOUR CODE HERE
+# Get stock ticker information for Apple
 appl = quandl.get("EOD/AAPL")
 
-# Loop through ticker and print last five closing prices 
+# Bonus: Loop through ticker and print last five closing prices 
 tickers = ["EOD/GE", "EOD/MMM", "XNYS/ABC"]
 
 for ticker in tickers:

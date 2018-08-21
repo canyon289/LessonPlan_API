@@ -14,6 +14,6 @@ raise NotImplementedError
 # YOUR CODE HERE
 raise NotImplementedError
 
-# Loop through prices and dates and print each
+# Bonus: Loop through ticker and print last five closing prices
 # YOUR CODE HERE
 raise NotImplementedError
