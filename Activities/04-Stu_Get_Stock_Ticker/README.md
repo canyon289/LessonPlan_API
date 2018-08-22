@@ -14,3 +14,6 @@
 can you grab the stock data for another company? Can you grab the GDP of 
 United States?
 
+* Try getting the stocks for multiple companies at one time. Remember 
+the DRY (Do not Repeat Yourself) principle when implementing this
+

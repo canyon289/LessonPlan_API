@@ -10,8 +10,9 @@ quandl.ApiConfig.api_key = API_KEY
 
 # Get stock ticker information for Apple
 appl = quandl.get("EOD/AAPL")
+print(appl.head())
 
-# Bonus: Loop through ticker and print last five closing prices 
+# Bonus: Loop through ticker and print last five closing prices
 tickers = ["EOD/GE", "EOD/MMM", "XNYS/ABC"]
 
 for ticker in tickers:
