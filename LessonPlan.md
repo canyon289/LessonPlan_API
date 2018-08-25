@@ -20,7 +20,7 @@ information
   * Import necessary libraries to interact with Quandl API  
   * Import keys from config file  
   * Setup Quandl authentication  
-  * Write code to fetch Apple Stock Ticker  
+  * Write code to fetch the Apple Stock Ticker  
   * Write code to fetch stock prices from multiple stocks
   * Loop through and print last 5 closing prices  
 
@@ -40,7 +40,10 @@ information
    ![Set API Key](Images/SetAPIKeyForQuandl.png)
   * Show how the quandl python library has a get method that can grab
    tickers that match the websites format  
+  * Be sure to explain how the quandl library automatically converts the
+  the api response into a Pandas dataframe under the hood for the users
+  convenience
    ![Get Stock Information](Images/GetAppleStockInformation.png)
   * Lastly show how loops can be used in conjunction to make
-  multiple api calls  
+  multiple API calls for a list of companies
    ![Get Multiple Stocks](Images/GetStockInformationforMultipleStocks.png)

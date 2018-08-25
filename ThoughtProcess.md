@@ -5,13 +5,18 @@ it seemed that Corporate customers find Twitter to be a toy example
 and not practical. I also got feedback that the customers were
 likely in the financial sector.  
 
-Due to this I chose to use the Quandl api. I chose this for numerous 
+Due to this I chose to use the Quandl api for numerous 
 reasons. One is that professionals taking this course
 will likely have experience with the stock market so this should
 feel more relevant and useful.  
   
 The second was that Quandl also published a Python API wrapper in top
-of its http interface.  
+of its http interface. Students should be familiar with pandas dataframes,
+loops, and imports at this point in their education and I found that this
+particular library fit those constraints. I also found that the documentation
+was quite good, which also serves as a learning exercise for students
+that reading documentation is the best way to implement code, especially
+without if a instructor/mentor is not present.
   
 Lastly I chose Quandl because we already use it in the Front End section
 of the course, making it easier for curriculum engineers to
